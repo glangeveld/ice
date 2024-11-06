@@ -27,15 +27,15 @@ When a line in this file starts with a '`#`' it is skipped (comment). Also empty
 
 `# run program that consumes 100% CPU`  
 `  usecpu&`  
-` `  
+  
 `. show 100% CPU capacity with atop`  
-` `  
+  
 `# set CPU consumption limit of 10%`  
 `! systemctl set-property user.slice  CPUQuota=10%`  
-` `  
+  
 `. show 10% CPU capacity with atop`   
-` `  
+  
 `# kill CPU consumer and revert cgroups setting`  
 `  killall usecpu`  
-` `  
+  
 `! systemctl revert user.slice`  
