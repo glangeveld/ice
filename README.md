@@ -21,7 +21,7 @@ The only argument for the `ice` program is the name of the file that contains th
 
 When a command line in this file is preceded by a '`!`' it will be executed using '`sudo sh -c`' (so with root privileges). For this purpose it is advised to configure password-less `sudo`.
 
-When a line in this file starts with a '`.`', a red dot will be displayed for two seconds to indicate that a special action is required (e.g. showing the results of another program during a demo before you want to continue with the next command line). The rest of the command line can be used as comment.
+When a line in this file starts with a '`.`', a red dot will be displayed for two seconds to indicate that a special action is required (e.g. showing the results with another program during a demo before you want to continue with the next command line). The rest of the line will be considered as comment.
 
 When a line in this file starts with a '`#`' it is skipped (comment). Also empty lines are skipped.
 
