@@ -1,6 +1,7 @@
 # Interactive Command Executor (`ice`)
 
-Simple Python program that reads command lines one-by-one from a file and executes these command lines on request. It is especially convenient to use this program for command line-based demonstrations.
+Simple Python program that reads command lines one-by-one from a file and executes these command lines on request. It is especially convenient to use this program for command-based demonstrations.
+
 The program executes a loop with the following steps:
 
 1. Wait for the Enter key to be pressed
