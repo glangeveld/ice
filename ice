@@ -88,8 +88,9 @@ def main():
             continue
 
         # when line starts with '.' a red dot
-        # will be displayed to indicate that an external
-        # program has be be used first
+        # will be displayed to notify that an external
+        # program has to be used first, e.g. to demonstrate
+        # the result of the commands executed so far
         #
         if cmdline[0] == '.':
             print(f"{SETRED}•{RESETRED}", flush=1, end='')
